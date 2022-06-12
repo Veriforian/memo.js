@@ -1,6 +1,6 @@
 {
-  "name": "@memo.js/api",
-  "version": "1.0.1",
+  "name": "@memos.js/api",
+  "version": "1.0.2",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -23,10 +23,10 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
-    "@memo.js/client": "^1.0.1",
+    "@memos.js/client": "^1.0.2",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "http-proxy-middleware": "^2.0.6"
   },
-  "gitHead": "e9a5c0438a568e0888d1490108d1b67502d5f9c9"
+  "gitHead": "3b213eb38f219c2baa3e5d87a4498fa613d2d534"
 }

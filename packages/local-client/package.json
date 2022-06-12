@@ -1,6 +1,6 @@
 {
-  "name": "@memo.js/client",
-  "version": "1.0.1",
+  "name": "@memos.js/client",
+  "version": "1.0.2",
   "publishConfig": {
     "access": "public"
   },
@@ -69,5 +69,5 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "e9a5c0438a568e0888d1490108d1b67502d5f9c9"
+  "gitHead": "3b213eb38f219c2baa3e5d87a4498fa613d2d534"
 }

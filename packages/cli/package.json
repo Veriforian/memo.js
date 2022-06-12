@@ -1,6 +1,6 @@
 {
-  "name": "memo.js",
-  "version": "1.0.1",
+  "name": "memos.js",
+  "version": "1.0.2",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -18,8 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@memo.js/api": "^1.0.1",
-    "@memo.js/client": "^1.0.1"
+    "@memos.js/api": "^1.0.2",
+    "@memos.js/client": "^1.0.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.41",
@@ -27,5 +27,5 @@
     "esbuild": "0.8.26",
     "typescript": "^4.7.3"
   },
-  "gitHead": "e9a5c0438a568e0888d1490108d1b67502d5f9c9"
+  "gitHead": "3b213eb38f219c2baa3e5d87a4498fa613d2d534"
 }
