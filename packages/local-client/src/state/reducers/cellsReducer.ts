@@ -32,10 +32,10 @@ const reducer: Reducer<CellsState, Action> = produce(
         return state;
 
       case ActionType.FETCH_CELLS_COMPLETE:
-        state.order = action.payload.map((cell) => cell.id);
+        state.order = action.payload.map((cell) => cell?.id);
 
         state.data = action.payload.reduce((acc, cell) => {
-          acc[cell.id] = cell;
+          acc[cell?.id] = cell;
           return acc;
         }, {} as CellsState['data']);
 

@@ -1,6 +1,6 @@
 import path from 'path';
 import { Command } from 'commander';
-import { serve } from '@memo.js/api';
+import { serve } from '@memos.js/api';
 
 const isProduction = process.env.NODE_ENV === 'production';
 

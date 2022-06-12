@@ -42,6 +42,10 @@
   border-bottom: 1px solid #dee5ed;
 }
 
+.text-editor .wmde-markdown h2 {
+  border-bottom: 1px solid #dee5ed;
+}
+
 .text-editor .wmde-markdown ol {
   list-style: decimal;
 }
