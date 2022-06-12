@@ -1,0 +1,72 @@
+{
+  "name": "@memo.js/client",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@babel/parser": "^7.17.10",
+    "@babel/traverse": "^7.17.10",
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@monaco-editor/react": "^4.4.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.0",
+    "@types/node": "^16.11.33",
+    "@types/prettier": "^2.6.0",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
+    "@types/react-redux": "^7.1.24",
+    "@types/react-resizable": "^1.7.4",
+    "@uiw/react-md-editor": "3.12.3",
+    "axios": "^0.27.2",
+    "buffer": "^6.0.3",
+    "bulmaswatch": "^0.8.1",
+    "esbuild-wasm": "0.14.38",
+    "immer": "^9.0.14",
+    "localforage": "^1.10.0",
+    "monaco-editor": "^0.33.0",
+    "monaco-jsx-highlighter": "^2.0.4",
+    "prettier": "^2.6.2",
+    "react": "^18.1.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.1",
+    "react-resizable": "^3.0.4",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "stream-browserify": "^3.0.0",
+    "typescript": "^4.6.4",
+    "web-vitals": "^2.1.4",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "prepublishOnly": "npm run build",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
