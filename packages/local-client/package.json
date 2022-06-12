@@ -1,6 +1,6 @@
 {
   "name": "@memo.js/client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },
@@ -68,5 +68,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "gitHead": "e9a5c0438a568e0888d1490108d1b67502d5f9c9"
 }
