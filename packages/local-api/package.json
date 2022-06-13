@@ -1,6 +1,6 @@
 {
   "name": "@memos.js/api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -23,7 +23,7 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
-    "@memos.js/client": "^1.0.3",
+    "@memos.js/client": "^1.0.4",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "http-proxy-middleware": "^2.0.6"

@@ -1,6 +1,6 @@
 {
   "name": "memos.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -18,8 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@memos.js/api": "^1.0.3",
-    "@memos.js/client": "^1.0.3"
+    "@memos.js/api": "^1.0.4",
+    "@memos.js/client": "^1.0.4"
   },
   "devDependencies": {
     "@types/node": "^17.0.41",
